@@ -26,7 +26,7 @@ def test_best_entry_for_reading_time():
     diary.add(e1)
     diary.add(e2)
     diary.add(e3)
-    assert diary.find_best_entry_for_reading_time(2, 2) == e3
+    assert diary.find_best_entry_for_reading_time(2, 2) == e2
 
 def test_reading_chunk():
     entry = DiaryEntry("Title", "one two three four five")

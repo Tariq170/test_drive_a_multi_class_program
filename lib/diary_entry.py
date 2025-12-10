@@ -52,4 +52,4 @@ class DiaryEntry:
 
         if self.read_index > len(self.words):
             self.read_index = 0
-        return "".join(chunk_words)    
+        return " ".join(chunk_words)    
